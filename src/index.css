@@ -1,0 +1,30 @@
+:root {
+  font-family: 'SZ Font', sans-serif !important;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --main-color: #e8c381;
+  --sub-color: #B79662;
+}
+
+.custom-sub-font-color{
+  color: var(--sub-color) !important
+}
+
+.custom-linear-bg{
+  background: linear-gradient(to right, rgba(235, 198, 132, 1), rgba(196, 160, 93, 1)) !important;
+}
+
+.custom-text-shadow{
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 1)
+}
+
+.grow-on-hover {
+  transition: transform 0.4s ease-in-out;
+}
+
+.grow-on-hover:hover {
+  transform: scale(103%);
+  box-shadow: 0 0 32px #171717;
+}
+
